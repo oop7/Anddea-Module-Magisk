@@ -2,6 +2,8 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 parallel-jobs = 1
 compression-level = 9
 
+patches-version = "dev"
+integrations-version = "dev"
 
 [Music-anddea]
 app-name = "Music"
