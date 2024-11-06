@@ -4,21 +4,25 @@ compression-level = 9
 
 
 [Music-anddea]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+app-name = "Music"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
 rv-brand = "anddea"
-arch = "both"
 build-mode = "module"
+arch = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 excluded-patches = "'GmsCore support'"
 
-[Youtube-anddea]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+[YouTube-anddea]
+app-name = "YouTube"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
 rv-brand = "anddea"
 build-mode = "module"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 included-patches = "'MaterialYou'"
 excluded-patches = "'GmsCore support'"
